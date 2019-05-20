@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+
+* {
+  font-family: Quicksand;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #EAEFF5;
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+  background: #fff;
+  color: #397EDC;
+}
+
+.scoreboard {
+  margin: 20px auto;
+  background: #3B454D;
+  width: 200px;
+  position: relative;
+  padding: 30px 30px;
+  border-radius: 10px;
+}
+
+.scoreboard > h4 {
+  color: #fff;
+  font-size: 24px;
+  text-align: center;
+}
+
+.score-left {
+  background: #fff;
+  display: inline;
+  position: absolute;
+  left: -25px;
+  top: 15px;
+  background: #397EDC;
+  padding: 10px;
+  border-radius: 10px;
+  color: #fff;
+}
+
+.score-right {
+  background: #fff;
+  display: inline;
+  position: absolute;
+  right: -35px;
+  top: 15px;
+  background: #397EDC;
+  padding: 10px;
+  border-radius: 10px;
+  color: #fff;
+}
+
+.game-controls {
+  text-align: center;
+}
+
+.game-controls > .control {
+  display: inline-block;
+  border-radius: 50%;
+  border: 5px solid #fff;
+  margin: 25px;
+  padding: 25px 35px;
+  font-size: 60px;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.game-controls > .control:hover {
+  background: #397EDC;
+}
+
+.game-display > .sub-title {
+  text-align: center;
+  color: #3B454D;
+  font-size: 24px;
+  margin: 25px;
+}
+
+#game-result {
+  text-align: center;
+  opacity: 0;
+  transition: all 0.3s ease-in;
+}
+
+.display {
+  opacity: 1 !important;
+}
+
+.hide {
+  opacity: 0 !important;
+}
